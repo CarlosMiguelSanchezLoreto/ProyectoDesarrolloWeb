@@ -22,10 +22,10 @@ public class WebSecurity extends WebSecurityConfigurerAdapter{
 	private BCryptPasswordEncoder bCryptPasswordEncoder;
 	
 	
-	public WebSecurity(UserDetailsService userDetailsService) {
-		super();
-		this.userDetailsService = userDetailsService;
-	}
+//	public WebSecurity(UserDetailsService userDetailsService) {
+//		super();
+//		this.userDetailsService = userDetailsService;
+//	}
 	
 	
 	@Override
